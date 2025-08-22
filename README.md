@@ -39,15 +39,15 @@ This project demonstrates an end-to-end ALPR pipeline: from **image input → de
 
 
 ## 📂 Project Structure
-licence_plate_database/
-│── app.py # main Streamlit app
-│── app1.py # Alternative app (testing/demo)
-│── car_plate_detector.h5 # Pretrained Keras/TensorFlow model
-│── license_plate_detector.pt # YOLO PyTorch model for detection
-│── haarcascade_russian_plate_number.xml # Haar Cascade for plate detection
-│── license_plate.db # SQLite DB to store detection records
-│── plates.db # Secondary DB for testing
-│── Cars116.png # Sample test image
-│── Cars120.png # Sample test image
-│── demo.mp4 # Demo video for detection
+- licence_plate_database/
+- │── app.py # main Streamlit app
+- │── app1.py # Alternative app (testing/demo)
+- │── car_plate_detector.h5 # Pretrained Keras/TensorFlow model
+- │── license_plate_detector.pt # YOLO PyTorch model for detection
+- │── haarcascade_russian_plate_number.xml # Haar Cascade for plate detection
+- │── license_plate.db # SQLite DB to store detection records
+- │── plates.db # Secondary DB for testing
+- │── Cars116.png # Sample test image
+- │── Cars120.png # Sample test image
+- │── demo.mp4 # Demo video for detection
 
